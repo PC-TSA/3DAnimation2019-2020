@@ -62,7 +62,32 @@ ModelImporter:
     7400000: iPi Default Take
     9500000: //RootNode
     13700000: Male:Male1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_LowerBody1
+    second: {fileID: 2100000, guid: 8460159a76ad6c64cb3824ec5412a520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_ShirtMat3
+    second: {fileID: 2100000, guid: fd64db7d83ef39b47aa25c712b6afab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_ShirtMat4
+    second: {fileID: 2100000, guid: 2ed9cc0f783b7304e8b14ba1c76008ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_ShortsMat1
+    second: {fileID: 2100000, guid: fd142b2b9e5993b44b58ef7a4e3cc4eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Male_UpperBody1
+    second: {fileID: 2100000, guid: 284cb86dc9fd24f4194cdc03574c7bcb, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -93,7 +118,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 50
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -114,7 +139,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
+    previousCalculatedGlobalScale: 0.5
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
